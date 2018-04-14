@@ -7,7 +7,7 @@ package edu.handong.csee.java.Lab09;//Instructs the SalesAssociate class to be c
  * @author Lee MyeongHui
  * @version java version "9.0.4"
  *
- */
+ */ 
 public class SalesAssociate {
 	private String name;//Create String type Instance variable name
 	private double sales;//Create double type Instance variable sales
