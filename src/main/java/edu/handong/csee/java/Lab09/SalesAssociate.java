@@ -12,7 +12,7 @@ public class SalesAssociate {
 	private String name;//Create String type Instance variable name
 	private double sales;//Create double type Instance variable sales
 
-	/**
+	/** 
 	 * This is a method for getting Name
 	 * @return Returns member variable name of the object to which the currently executing method belongs, it is String type
 	 */
