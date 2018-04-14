@@ -33,10 +33,10 @@ public class SalesReporter {
 
 		boolean getDT=true;
 		
-		Scanner keyboard= new Scanner(System.in);
-		
 		while(getDT==true)
 		{
+			Scanner keyboard= new Scanner(System.in);
+			
 			System.out.print("Enter name of sales associate: ");//Outputs the string literal "Enter name of sales associate: "
 			String name= keyboard.nextLine();//Create String type local variable name, Take one string from the keyboard and place it in name
 
@@ -49,11 +49,14 @@ public class SalesReporter {
 			
 			team.add(member);
 			
-			System.out.println("More data for the team");
+			String blank=keyboard.nextLine();
+			System.out.println("More data for the team:");
 			String answer=keyboard.nextLine();
 			
-			if(!answer.equalsIgnoreCase("yes"))
+			if(answer.equalsIgnoreCase("yes"))
 				getDT=true;
+			else
+				getDT=false;
 		}
 		
 	}
