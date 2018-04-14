@@ -1,7 +1,7 @@
 package edu.handong.csee.java.Lab09;//Instructs the SalesReporter class to be complied and stored in edu.handong.csee.java.lab09
 
 import java.util.Scanner;//importing a package, java.util.Scanner. A package is a kind of external objects created by other developer
-import java.util.ArrayList;
+import java.util.ArrayList; 
 
 /**
  * This class defines a SalesReporter object
